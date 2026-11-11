@@ -1,0 +1,12 @@
+{
+  "name": "douyin-danmaku-plus-one",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Chrome/Edge 抖音漂浮弹幕 +1 扩展",
+  "scripts": {
+    "check": "node --check extension/canvas-bridge.js && node --check extension/site-adapter.js && node --check extension/content.js && node --check extension/popup.js",
+    "test": "node --test tests/*.test.cjs",
+    "demo": "node scripts/serve.mjs",
+    "pack": "python scripts/pack.py"
+  }
+}

@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>抖音弹幕 +1</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <header><span class="mark">+1</span><div><h1>抖音弹幕 +1</h1><p>看到共鸣，点一下。</p></div></header>
+  <label class="toggle"><span>启用弹幕点击</span><input id="enabled" type="checkbox" checked></label>
+  <p class="steps">点击漂浮弹幕 → 核对文字 → 点击 <b>+1 发送</b></p>
+  <p class="note">首次安装后请刷新抖音页面，并开启播放器弹幕。需要登录账号才能发送。</p>
+  <p class="note">发送的是所选弹幕原文。已有草稿时会保留草稿；每次只提交一条。</p>
+  <p class="note" id="page-status" role="status">正在检查当前页面…</p>
+  <footer id="status" role="status">仅在抖音网页运行 · v0.1.1</footer>
+  <script src="popup.js"></script>
+</body></html>
